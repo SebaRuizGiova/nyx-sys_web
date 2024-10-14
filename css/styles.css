@@ -2933,6 +2933,7 @@ input::-moz-focus-inner {
 }
 
 .item-title {
+    display: flex;
     font-family: var(--font-2);
     font-weight: 500;
     font-size: var(--text-lg);
@@ -4184,7 +4185,6 @@ html.no-csstransitions .s-hero__content {
 .service-icon {
     display: block;
     width: calc(2.25 * var(--space));
-    height: calc(2.25 * var(--space));
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
